@@ -1,0 +1,65 @@
+body {
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    line-height: 1.6;
+}
+/*სტილი header-ისთვის*/
+header {
+    background-color: rgb(34, 31, 31);
+    color: #fff;
+    text-align: center;
+    padding: 10px ;
+}
+/*სტილი nav-ისთვის*/
+nav{
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav ul{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+/*სტილი-mane-ისტვის*/
+main {
+    padding: 20px;
+}
+/*სტილი section-ისთვის */
+section{
+    margin-bottom: 20px;
+}
+/*სტილი-about-ისთვის */
+#about {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+/*სტილი contact სექციისტვის*/
+#project {
+    background-color:aliceblue ;
+    padding: 20px;
+    border-radius: 10px;
+}
+#contact {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding:3px;
+}
